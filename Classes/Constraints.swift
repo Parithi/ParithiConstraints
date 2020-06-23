@@ -37,35 +37,51 @@ extension UIView {
         self.heightAnchor.constraint(equalToConstant: value).isActive = true
     }
     
-    public func setLeftToLeft(of parent: UIView, offset value: CGFloat = 0.0) {
-        self.leadingAnchor.constraint(equalTo: parent.safeAreaLayoutGuide.leadingAnchor, constant: value).isActive = true
+    public func setLeftToLeft(of parent: UIView, offset value: CGFloat = 0.0, useSafeLayout : Bool = false) {
+        let parentAnchor = useSafeLayout ? parent.safeAreaLayoutGuide.leadingAnchor : parent.leadingAnchor
+        self.leadingAnchor.constraint(equalTo: parentAnchor, constant: value).isActive = true
     }
     
-    public func setRightToRight(of parent: UIView, offset value: CGFloat = 0.0) {
-        self.trailingAnchor.constraint(equalTo: parent.safeAreaLayoutGuide.trailingAnchor, constant: -value).isActive = true
+    public func setRightToRight(of parent: UIView, offset value: CGFloat = 0.0, useSafeLayout : Bool = false) {
+        let parentAnchor = useSafeLayout ? parent.safeAreaLayoutGuide.trailingAnchor : parent.trailingAnchor
+        self.trailingAnchor.constraint(equalTo: parentAnchor, constant: -value).isActive = true
     }
     
-    public func setTopToTop(of parent: UIView, offset value: CGFloat = 0.0) {
-        self.topAnchor.constraint(equalTo: parent.safeAreaLayoutGuide.topAnchor, constant: value).isActive = true
+    public func setTopToTop(of parent: UIView, offset value: CGFloat = 0.0, useSafeLayout : Bool = false) {
+        let parentAnchor = useSafeLayout ? parent.safeAreaLayoutGuide.topAnchor : parent.topAnchor
+        self.topAnchor.constraint(equalTo: parentAnchor, constant: value).isActive = true
     }
     
-    public func setTopToBottom(of parent: UIView, offset value: CGFloat = 0.0) {
-        self.topAnchor.constraint(equalTo: parent.safeAreaLayoutGuide.bottomAnchor, constant: value).isActive = true
+    public func setTopToBottom(of parent: UIView, offset value: CGFloat = 0.0, useSafeLayout : Bool = false) {
+        let parentAnchor = useSafeLayout ? parent.safeAreaLayoutGuide.bottomAnchor : parent.bottomAnchor
+        self.topAnchor.constraint(equalTo: parentAnchor, constant: value).isActive = true
     }
     
-    public func setBottomToBottom(of parent: UIView, offset value: CGFloat = 0.0) {
-        self.bottomAnchor.constraint(equalTo: parent.safeAreaLayoutGuide.bottomAnchor, constant: -value).isActive = true
+    public func setBottomToBottom(of parent: UIView, offset value: CGFloat = 0.0, useSafeLayout : Bool = false) {
+        let parentAnchor = useSafeLayout ? parent.safeAreaLayoutGuide.bottomAnchor : parent.bottomAnchor
+        self.bottomAnchor.constraint(equalTo: parentAnchor, constant: -value).isActive = true
     }
     
-    public func setBottomToTop(of parent: UIView, offset value: CGFloat = 0.0) {
-        self.bottomAnchor.constraint(equalTo: parent.safeAreaLayoutGuide.topAnchor, constant: -value).isActive = true
+    public func setBottomToTop(of parent: UIView, offset value: CGFloat = 0.0, useSafeLayout : Bool = false) {
+        let parentAnchor = useSafeLayout ? parent.safeAreaLayoutGuide.topAnchor : parent.topAnchor
+        self.bottomAnchor.constraint(equalTo: parentAnchor, constant: -value).isActive = true
     }
     
-    public func pinToCorners(of view: UIView) {
-        self.setTopToTop(of: view)
-        self.setBottomToBottom(of: view)
-        self.setRightToRight(of: view)
-        self.setLeftToLeft(of: view)
+    public func setLeftToRight(of parent: UIView, offset value: CGFloat = 0.0, useSafeLayout : Bool = false) {
+        let parentAnchor = useSafeLayout ? parent.safeAreaLayoutGuide.rightAnchor : parent.rightAnchor
+        self.leftAnchor.constraint(equalTo: parentAnchor, constant: value).isActive = true
+    }
+    
+    public func setRightToLeft(of parent: UIView, offset value: CGFloat = 0.0, useSafeLayout : Bool = false) {
+        let parentAnchor = useSafeLayout ? parent.safeAreaLayoutGuide.leftAnchor : parent.leftAnchor
+        self.rightAnchor.constraint(equalTo: parentAnchor, constant: value).isActive = true
+    }
+    
+    public func pinToCorners(of view: UIView, useSafeLayout : Bool = false) {
+        self.setTopToTop(of: view, useSafeLayout: useSafeLayout)
+        self.setBottomToBottom(of: view, useSafeLayout: useSafeLayout)
+        self.setRightToRight(of: view, useSafeLayout: useSafeLayout)
+        self.setLeftToLeft(of: view, useSafeLayout: useSafeLayout)
     }
     
     public func setToCenter(of view: UIView) {
@@ -73,12 +89,12 @@ extension UIView {
         alignHorizontally(to: view)
     }
     
-    public func alignVertically(to view: UIView) {
-        self.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+    public func alignVertically(to view: UIView, offset value: CGFloat = 0.0) {
+        self.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: value).isActive = true
     }
     
-    public func alignHorizontally(to view: UIView) {
-        self.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+    public func alignHorizontally(to view: UIView, offset value: CGFloat = 0.0) {
+        self.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: value).isActive = true
     }
-    
+        
 }

@@ -51,7 +51,7 @@
 		5402908CB730FD0F0DE4BD829E76CB64 /* ParithiConstraints-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ParithiConstraints-prefix.pch"; sourceTree = "<group>"; };
 		6A548D83CA6A36000F46E515F9B7A64D /* Pods-ParithiConstraints_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ParithiConstraints_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7B62CDCA6E3EA049FB85518F38973D8D /* Pods-ParithiConstraints_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ParithiConstraints_Tests-umbrella.h"; sourceTree = "<group>"; };
-		8C0E3DFF92D7DF723B64B048907BAE5D /* Constraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraints.swift; path = ParithiConstraints/Classes/Constraints.swift; sourceTree = "<group>"; };
+		8C0E3DFF92D7DF723B64B048907BAE5D /* Constraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Constraints.swift; sourceTree = "<group>"; };
 		8E0FE002A298368688EC9F71C60735B5 /* Pods-ParithiConstraints_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ParithiConstraints_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8EA773C02F19044F27537D022B176A96 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		991E0260BF10574FB9007583DCB37034 /* Pods-ParithiConstraints_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ParithiConstraints_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -134,7 +134,7 @@
 		32F01EBC73BDB0B69467F0703AB05DB8 /* ParithiConstraints */ = {
 			isa = PBXGroup;
 			children = (
-				8C0E3DFF92D7DF723B64B048907BAE5D /* Constraints.swift */,
+				7205730D24A2721300ACDE7E /* Source */,
 				73E14EBC6A29CA2E4E822C402AC1747C /* Pod */,
 				0BE211B6D50799465737727EE74CB3DC /* Support Files */,
 			);
@@ -150,6 +150,14 @@
 				E48D1F8D483D90DB32229B096FF9F1C0 /* Pods_ParithiConstraints_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		7205730D24A2721300ACDE7E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8C0E3DFF92D7DF723B64B048907BAE5D /* Constraints.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		73E14EBC6A29CA2E4E822C402AC1747C /* Pod */ = {
@@ -317,6 +325,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					0798F82ADDAE1697CA35631E5C7F94AE = {
+						LastSwiftMigration = 1150;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -422,7 +435,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ParithiConstraints_Example/Pods-ParithiConstraints_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ParithiConstraints_Example/Pods-ParithiConstraints_Example.modulemap";
@@ -455,7 +468,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ParithiConstraints_Tests/Pods-ParithiConstraints_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ParithiConstraints_Tests/Pods-ParithiConstraints_Tests.modulemap";
@@ -489,7 +502,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ParithiConstraints_Tests/Pods-ParithiConstraints_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ParithiConstraints_Tests/Pods-ParithiConstraints_Tests.modulemap";
@@ -530,7 +543,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -562,7 +575,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -708,7 +721,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ParithiConstraints_Example/Pods-ParithiConstraints_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ParithiConstraints_Example/Pods-ParithiConstraints_Example.modulemap";

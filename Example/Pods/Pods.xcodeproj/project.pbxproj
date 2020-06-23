@@ -134,7 +134,7 @@
 		32F01EBC73BDB0B69467F0703AB05DB8 /* ParithiConstraints */ = {
 			isa = PBXGroup;
 			children = (
-				7205730D24A2721300ACDE7E /* Source */,
+				7205730D24A2721300ACDE7E /* Classes */,
 				73E14EBC6A29CA2E4E822C402AC1747C /* Pod */,
 				0BE211B6D50799465737727EE74CB3DC /* Support Files */,
 			);
@@ -152,12 +152,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7205730D24A2721300ACDE7E /* Source */ = {
+		7205730D24A2721300ACDE7E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				8C0E3DFF92D7DF723B64B048907BAE5D /* Constraints.swift */,
 			);
-			path = Source;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		73E14EBC6A29CA2E4E822C402AC1747C /* Pod */ = {

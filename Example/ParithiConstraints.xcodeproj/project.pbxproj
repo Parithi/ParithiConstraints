@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04313DFF55B589D6D69BEBF1 /* ParithiConstraints.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ParithiConstraints.podspec; path = ../ParithiConstraints.podspec; sourceTree = "<group>"; };
+		04313DFF55B589D6D69BEBF1 /* ParithiConstraints.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ParithiConstraints.podspec; path = ../ParithiConstraints.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ParithiConstraints_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParithiConstraints_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,12 +40,12 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		609B1053714B1694427467DE /* Pods-ParithiConstraints_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParithiConstraints_Tests.release.xcconfig"; path = "Target Support Files/Pods-ParithiConstraints_Tests/Pods-ParithiConstraints_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6553686577264B124FAEC725 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6553686577264B124FAEC725 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7C203C61B06214C7A1D52720 /* Pods-ParithiConstraints_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParithiConstraints_Example.debug.xcconfig"; path = "Target Support Files/Pods-ParithiConstraints_Example/Pods-ParithiConstraints_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8270BB5C35F4AC125B968AEE /* Pods-ParithiConstraints_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParithiConstraints_Example.release.xcconfig"; path = "Target Support Files/Pods-ParithiConstraints_Example/Pods-ParithiConstraints_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8A4D7D5816ABE89EBA9A018A /* Pods_ParithiConstraints_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParithiConstraints_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CF70C494C1FEFB831953D53 /* Pods-ParithiConstraints_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParithiConstraints_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ParithiConstraints_Tests/Pods-ParithiConstraints_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D5181D38675BCBB1D6C6AECF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D5181D38675BCBB1D6C6AECF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DA644FCA15A8E5B731AD0F2A /* Pods_ParithiConstraints_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParithiConstraints_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				9CF70C494C1FEFB831953D53 /* Pods-ParithiConstraints_Tests.debug.xcconfig */,
 				609B1053714B1694427467DE /* Pods-ParithiConstraints_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -479,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ParithiConstraints/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,6 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ParithiConstraints/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

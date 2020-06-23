@@ -1,0 +1,22 @@
+{
+  "name": "ParithiConstraints",
+  "version": "0.1.0",
+  "summary": "A short description of ParithiConstraints.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ElamParithi Arul/ParithiConstraints",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ElamParithi Arul": "mail@parithi.com"
+  },
+  "source": {
+    "git": "https://github.com/ElamParithi Arul/ParithiConstraints.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ParithiConstraints/Classes/**/*"
+}

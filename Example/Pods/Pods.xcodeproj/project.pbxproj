@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0165A6849306AF91F1D4985A02E42773 /* ParithiConstraints-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDEE891847679EF7AD5A89DBB885668A /* ParithiConstraints-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B26AE37546725732D119FC4465B734D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		80CAE9F162A454B0E4035752F18E3DE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8C502A185B4497C74CBC506D27E67B6E /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0E3DFF92D7DF723B64B048907BAE5D /* Constraints.swift */; };
+		A335FC58DCF41058D41BBDCD7AF22E71 /* Pods-ParithiConstraints_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC70C211DCC11FA969E520EA20BCCDA /* Pods-ParithiConstraints_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A36C7692C8A2725927BB385164F8F121 /* Pods-ParithiConstraints_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A9B5D9224D7B53033311F4053CCC73 /* Pods-ParithiConstraints_Tests-dummy.m */; };
+		B097FF6AF026CD4F0FD49A0C8B517D7E /* Pods-ParithiConstraints_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B62CDCA6E3EA049FB85518F38973D8D /* Pods-ParithiConstraints_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B91F27B275766DC803ADBDB345DF3DEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D687AC0BA0FD3AC06D7BFC041A122DC7 /* ParithiConstraints-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C92758456E33F0C570B09577075CB2AC /* ParithiConstraints-dummy.m */; };
+		F39F82A05125A7C274B5165ACCFC8668 /* Pods-ParithiConstraints_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7C421C52FADF2D5D5CAEDCD2B5D66D /* Pods-ParithiConstraints_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A659B8FD5AFF6872090B719746630E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE101F22DD918BE5AA56E9024755B777;
+			remoteInfo = "Pods-ParithiConstraints_Example";
+		};
+		51919BCDA91030C1CE646EA049829CD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0798F82ADDAE1697CA35631E5C7F94AE;
+			remoteInfo = ParithiConstraints;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E9AD79BAEC426B1DA346158D97E538D /* ParithiConstraints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ParithiConstraints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22A9B5D9224D7B53033311F4053CCC73 /* Pods-ParithiConstraints_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ParithiConstraints_Tests-dummy.m"; sourceTree = "<group>"; };
+		24E503C39E05BEFA68E2E79A2F86FE54 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2F921B414B5BEACFE580D8B6CC1B6BDD /* Pods-ParithiConstraints_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ParithiConstraints_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3034AE845E20C6D266BE1F8CB095E963 /* Pods-ParithiConstraints_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ParithiConstraints_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		34707289FC5F3EE55D1B4007472B0F8D /* Pods-ParithiConstraints_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ParithiConstraints_Tests-Info.plist"; sourceTree = "<group>"; };
+		39CDF7EE188FC25DA33A27A173D1F0DF /* ParithiConstraints.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ParithiConstraints.release.xcconfig; sourceTree = "<group>"; };
+		4B7C421C52FADF2D5D5CAEDCD2B5D66D /* Pods-ParithiConstraints_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ParithiConstraints_Example-dummy.m"; sourceTree = "<group>"; };
+		4CCC22BF1AA15C0090F0CFC388694519 /* ParithiConstraints.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ParithiConstraints.modulemap; sourceTree = "<group>"; };
+		4EA785ED04E0FA6313371D044A4617E3 /* Pods-ParithiConstraints_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ParithiConstraints_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5402908CB730FD0F0DE4BD829E76CB64 /* ParithiConstraints-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ParithiConstraints-prefix.pch"; sourceTree = "<group>"; };
+		6A548D83CA6A36000F46E515F9B7A64D /* Pods-ParithiConstraints_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ParithiConstraints_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7B62CDCA6E3EA049FB85518F38973D8D /* Pods-ParithiConstraints_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ParithiConstraints_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8C0E3DFF92D7DF723B64B048907BAE5D /* Constraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraints.swift; path = ParithiConstraints/Classes/Constraints.swift; sourceTree = "<group>"; };
+		8E0FE002A298368688EC9F71C60735B5 /* Pods-ParithiConstraints_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ParithiConstraints_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8EA773C02F19044F27537D022B176A96 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		991E0260BF10574FB9007583DCB37034 /* Pods-ParithiConstraints_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ParithiConstraints_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A80F29458E4CFCE46955A6B88720911F /* Pods_ParithiConstraints_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParithiConstraints_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84F5960F2F598711349BA635BF507D2 /* ParithiConstraints-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ParithiConstraints-Info.plist"; sourceTree = "<group>"; };
+		AE4234799DDE239904BD2B738DCCAC9D /* Pods-ParithiConstraints_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ParithiConstraints_Tests.modulemap"; sourceTree = "<group>"; };
+		B4C0D98005C96BD0B6A2F6A39A858A4B /* Pods-ParithiConstraints_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ParithiConstraints_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C48BAF16A3A41441FEB99D5132698096 /* ParithiConstraints.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ParithiConstraints.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C92758456E33F0C570B09577075CB2AC /* ParithiConstraints-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ParithiConstraints-dummy.m"; sourceTree = "<group>"; };
+		CAC70C211DCC11FA969E520EA20BCCDA /* Pods-ParithiConstraints_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ParithiConstraints_Example-umbrella.h"; sourceTree = "<group>"; };
+		D1455A937CDE60EEFC8DBB804DCF96C3 /* ParithiConstraints.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ParithiConstraints.debug.xcconfig; sourceTree = "<group>"; };
+		D5923C63B830EAECF14CA1C9792A816B /* Pods-ParithiConstraints_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ParithiConstraints_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DA0C0F49DE096E4BF8FFE29161F9AC82 /* Pods-ParithiConstraints_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ParithiConstraints_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E48D1F8D483D90DB32229B096FF9F1C0 /* Pods_ParithiConstraints_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParithiConstraints_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6B2568DDC2570F69876BC2CE8E111D2 /* Pods-ParithiConstraints_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ParithiConstraints_Example-Info.plist"; sourceTree = "<group>"; };
+		EDEE891847679EF7AD5A89DBB885668A /* ParithiConstraints-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ParithiConstraints-umbrella.h"; sourceTree = "<group>"; };
+		FFBFD575218691903B6E3E25937AECC8 /* Pods-ParithiConstraints_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ParithiConstraints_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B8FF9A67C88660A7F1393E70077D970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B91F27B275766DC803ADBDB345DF3DEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3633EBCBE47459805AA364966B686D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CAE9F162A454B0E4035752F18E3DE0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D51F780EA84C9E611039666BFC619072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B26AE37546725732D119FC4465B734D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BE211B6D50799465737727EE74CB3DC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CCC22BF1AA15C0090F0CFC388694519 /* ParithiConstraints.modulemap */,
+				C92758456E33F0C570B09577075CB2AC /* ParithiConstraints-dummy.m */,
+				A84F5960F2F598711349BA635BF507D2 /* ParithiConstraints-Info.plist */,
+				5402908CB730FD0F0DE4BD829E76CB64 /* ParithiConstraints-prefix.pch */,
+				EDEE891847679EF7AD5A89DBB885668A /* ParithiConstraints-umbrella.h */,
+				D1455A937CDE60EEFC8DBB804DCF96C3 /* ParithiConstraints.debug.xcconfig */,
+				39CDF7EE188FC25DA33A27A173D1F0DF /* ParithiConstraints.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ParithiConstraints";
+			sourceTree = "<group>";
+		};
+		307E4AC2C92BA4AADF0ADB763142451F /* Pods-ParithiConstraints_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AE4234799DDE239904BD2B738DCCAC9D /* Pods-ParithiConstraints_Tests.modulemap */,
+				3034AE845E20C6D266BE1F8CB095E963 /* Pods-ParithiConstraints_Tests-acknowledgements.markdown */,
+				2F921B414B5BEACFE580D8B6CC1B6BDD /* Pods-ParithiConstraints_Tests-acknowledgements.plist */,
+				22A9B5D9224D7B53033311F4053CCC73 /* Pods-ParithiConstraints_Tests-dummy.m */,
+				34707289FC5F3EE55D1B4007472B0F8D /* Pods-ParithiConstraints_Tests-Info.plist */,
+				7B62CDCA6E3EA049FB85518F38973D8D /* Pods-ParithiConstraints_Tests-umbrella.h */,
+				B4C0D98005C96BD0B6A2F6A39A858A4B /* Pods-ParithiConstraints_Tests.debug.xcconfig */,
+				4EA785ED04E0FA6313371D044A4617E3 /* Pods-ParithiConstraints_Tests.release.xcconfig */,
+			);
+			name = "Pods-ParithiConstraints_Tests";
+			path = "Target Support Files/Pods-ParithiConstraints_Tests";
+			sourceTree = "<group>";
+		};
+		32F01EBC73BDB0B69467F0703AB05DB8 /* ParithiConstraints */ = {
+			isa = PBXGroup;
+			children = (
+				8C0E3DFF92D7DF723B64B048907BAE5D /* Constraints.swift */,
+				73E14EBC6A29CA2E4E822C402AC1747C /* Pod */,
+				0BE211B6D50799465737727EE74CB3DC /* Support Files */,
+			);
+			name = ParithiConstraints;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		60BB7E3CD6F7D027124BA72932DA84C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E9AD79BAEC426B1DA346158D97E538D /* ParithiConstraints.framework */,
+				A80F29458E4CFCE46955A6B88720911F /* Pods_ParithiConstraints_Example.framework */,
+				E48D1F8D483D90DB32229B096FF9F1C0 /* Pods_ParithiConstraints_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73E14EBC6A29CA2E4E822C402AC1747C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				24E503C39E05BEFA68E2E79A2F86FE54 /* LICENSE */,
+				C48BAF16A3A41441FEB99D5132698096 /* ParithiConstraints.podspec */,
+				8EA773C02F19044F27537D022B176A96 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8983CCE8AFECE3C79C0552D7CF8E8D50 /* Pods-ParithiConstraints_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FFBFD575218691903B6E3E25937AECC8 /* Pods-ParithiConstraints_Example.modulemap */,
+				D5923C63B830EAECF14CA1C9792A816B /* Pods-ParithiConstraints_Example-acknowledgements.markdown */,
+				6A548D83CA6A36000F46E515F9B7A64D /* Pods-ParithiConstraints_Example-acknowledgements.plist */,
+				4B7C421C52FADF2D5D5CAEDCD2B5D66D /* Pods-ParithiConstraints_Example-dummy.m */,
+				991E0260BF10574FB9007583DCB37034 /* Pods-ParithiConstraints_Example-frameworks.sh */,
+				E6B2568DDC2570F69876BC2CE8E111D2 /* Pods-ParithiConstraints_Example-Info.plist */,
+				CAC70C211DCC11FA969E520EA20BCCDA /* Pods-ParithiConstraints_Example-umbrella.h */,
+				DA0C0F49DE096E4BF8FFE29161F9AC82 /* Pods-ParithiConstraints_Example.debug.xcconfig */,
+				8E0FE002A298368688EC9F71C60735B5 /* Pods-ParithiConstraints_Example.release.xcconfig */,
+			);
+			name = "Pods-ParithiConstraints_Example";
+			path = "Target Support Files/Pods-ParithiConstraints_Example";
+			sourceTree = "<group>";
+		};
+		9E0EA6F43E4FE0E2AD97FB0772D26C37 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32F01EBC73BDB0B69467F0703AB05DB8 /* ParithiConstraints */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9E0EA6F43E4FE0E2AD97FB0772D26C37 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				60BB7E3CD6F7D027124BA72932DA84C8 /* Products */,
+				F700BE4E209BCF3164E12ADAC239F7D3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F700BE4E209BCF3164E12ADAC239F7D3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8983CCE8AFECE3C79C0552D7CF8E8D50 /* Pods-ParithiConstraints_Example */,
+				307E4AC2C92BA4AADF0ADB763142451F /* Pods-ParithiConstraints_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		317D7C13229C9F99C99B6B001531E55F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B097FF6AF026CD4F0FD49A0C8B517D7E /* Pods-ParithiConstraints_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0721CFC28A124C5BC11B7EF642BA055 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A335FC58DCF41058D41BBDCD7AF22E71 /* Pods-ParithiConstraints_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA74B4BCED87AD0D00B4007D21C8E8F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0165A6849306AF91F1D4985A02E42773 /* ParithiConstraints-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0798F82ADDAE1697CA35631E5C7F94AE /* ParithiConstraints */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 945191A32230A637036B4DC1C4CDF916 /* Build configuration list for PBXNativeTarget "ParithiConstraints" */;
+			buildPhases = (
+				EA74B4BCED87AD0D00B4007D21C8E8F0 /* Headers */,
+				68620F3C4F5B0573EF546B3CCAD2A5B0 /* Sources */,
+				D51F780EA84C9E611039666BFC619072 /* Frameworks */,
+				4A2866821BAE569715A4E19340ED1F08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParithiConstraints;
+			productName = ParithiConstraints;
+			productReference = 1E9AD79BAEC426B1DA346158D97E538D /* ParithiConstraints.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		23A2E03DDB7BE265B529B8EB32FF8A19 /* Pods-ParithiConstraints_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45077AAE62CD2FAC6D5B6C9FC558BB55 /* Build configuration list for PBXNativeTarget "Pods-ParithiConstraints_Tests" */;
+			buildPhases = (
+				317D7C13229C9F99C99B6B001531E55F /* Headers */,
+				DE972667650544C25D1A6D1FFCC2F965 /* Sources */,
+				CA3633EBCBE47459805AA364966B686D /* Frameworks */,
+				F11006E5DF38E02AD1C662F6969DED19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0613ADC10C120209F24C2A2E3E96A61C /* PBXTargetDependency */,
+			);
+			name = "Pods-ParithiConstraints_Tests";
+			productName = "Pods-ParithiConstraints_Tests";
+			productReference = E48D1F8D483D90DB32229B096FF9F1C0 /* Pods_ParithiConstraints_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE101F22DD918BE5AA56E9024755B777 /* Pods-ParithiConstraints_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A56D6C62379CCF308C33C4EACD88D16 /* Build configuration list for PBXNativeTarget "Pods-ParithiConstraints_Example" */;
+			buildPhases = (
+				D0721CFC28A124C5BC11B7EF642BA055 /* Headers */,
+				C4F8309B3F8C4E1AF0148483F25A68E7 /* Sources */,
+				0B8FF9A67C88660A7F1393E70077D970 /* Frameworks */,
+				AC2EC2BD32D56AA72FAF456F6A09C3A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C52CCD5952895CC471D640AC58ECD42 /* PBXTargetDependency */,
+			);
+			name = "Pods-ParithiConstraints_Example";
+			productName = "Pods-ParithiConstraints_Example";
+			productReference = A80F29458E4CFCE46955A6B88720911F /* Pods_ParithiConstraints_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 60BB7E3CD6F7D027124BA72932DA84C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0798F82ADDAE1697CA35631E5C7F94AE /* ParithiConstraints */,
+				CE101F22DD918BE5AA56E9024755B777 /* Pods-ParithiConstraints_Example */,
+				23A2E03DDB7BE265B529B8EB32FF8A19 /* Pods-ParithiConstraints_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A2866821BAE569715A4E19340ED1F08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2EC2BD32D56AA72FAF456F6A09C3A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F11006E5DF38E02AD1C662F6969DED19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68620F3C4F5B0573EF546B3CCAD2A5B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D687AC0BA0FD3AC06D7BFC041A122DC7 /* ParithiConstraints-dummy.m in Sources */,
+				8C502A185B4497C74CBC506D27E67B6E /* Constraints.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F8309B3F8C4E1AF0148483F25A68E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39F82A05125A7C274B5165ACCFC8668 /* Pods-ParithiConstraints_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE972667650544C25D1A6D1FFCC2F965 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A36C7692C8A2725927BB385164F8F121 /* Pods-ParithiConstraints_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0613ADC10C120209F24C2A2E3E96A61C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ParithiConstraints_Example";
+			target = CE101F22DD918BE5AA56E9024755B777 /* Pods-ParithiConstraints_Example */;
+			targetProxy = 4A659B8FD5AFF6872090B719746630E7 /* PBXContainerItemProxy */;
+		};
+		8C52CCD5952895CC471D640AC58ECD42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ParithiConstraints;
+			target = 0798F82ADDAE1697CA35631E5C7F94AE /* ParithiConstraints */;
+			targetProxy = 51919BCDA91030C1CE646EA049829CD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		405578C7B3122690CDB1DAB7F76B8DAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA0C0F49DE096E4BF8FFE29161F9AC82 /* Pods-ParithiConstraints_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ParithiConstraints_Example/Pods-ParithiConstraints_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ParithiConstraints_Example/Pods-ParithiConstraints_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		51C4929D8FEE3B1892D30D3D0CD29C8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EA785ED04E0FA6313371D044A4617E3 /* Pods-ParithiConstraints_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ParithiConstraints_Tests/Pods-ParithiConstraints_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ParithiConstraints_Tests/Pods-ParithiConstraints_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8CCED743DA0ED05125CFB434855D68B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4C0D98005C96BD0B6A2F6A39A858A4B /* Pods-ParithiConstraints_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ParithiConstraints_Tests/Pods-ParithiConstraints_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ParithiConstraints_Tests/Pods-ParithiConstraints_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9F619956B2C65953B9D35B994AA04A53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39CDF7EE188FC25DA33A27A173D1F0DF /* ParithiConstraints.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ParithiConstraints/ParithiConstraints-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ParithiConstraints/ParithiConstraints-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ParithiConstraints/ParithiConstraints.modulemap";
+				PRODUCT_MODULE_NAME = ParithiConstraints;
+				PRODUCT_NAME = ParithiConstraints;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8EC81C077B65D06A0DAEDF484D54A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1455A937CDE60EEFC8DBB804DCF96C3 /* ParithiConstraints.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ParithiConstraints/ParithiConstraints-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ParithiConstraints/ParithiConstraints-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ParithiConstraints/ParithiConstraints.modulemap";
+				PRODUCT_MODULE_NAME = ParithiConstraints;
+				PRODUCT_NAME = ParithiConstraints;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C8D787E034FF88646C74D86A1A75080D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E0FE002A298368688EC9F71C60735B5 /* Pods-ParithiConstraints_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ParithiConstraints_Example/Pods-ParithiConstraints_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ParithiConstraints_Example/Pods-ParithiConstraints_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A56D6C62379CCF308C33C4EACD88D16 /* Build configuration list for PBXNativeTarget "Pods-ParithiConstraints_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405578C7B3122690CDB1DAB7F76B8DAE /* Debug */,
+				C8D787E034FF88646C74D86A1A75080D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45077AAE62CD2FAC6D5B6C9FC558BB55 /* Build configuration list for PBXNativeTarget "Pods-ParithiConstraints_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CCED743DA0ED05125CFB434855D68B2 /* Debug */,
+				51C4929D8FEE3B1892D30D3D0CD29C8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		945191A32230A637036B4DC1C4CDF916 /* Build configuration list for PBXNativeTarget "ParithiConstraints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8EC81C077B65D06A0DAEDF484D54A89 /* Debug */,
+				9F619956B2C65953B9D35B994AA04A53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - ParithiConstraints (0.1.0)
+
+DEPENDENCIES:
+  - ParithiConstraints (from `../`)
+
+EXTERNAL SOURCES:
+  ParithiConstraints:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ParithiConstraints: e09fc0ad6f33806517048b7acd2d007a3a99e48d
+
+PODFILE CHECKSUM: ca2cd0edadf0c5181b6a93fdc9211f1baa568cf2
+
+COCOAPODS: 1.9.2

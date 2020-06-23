@@ -1,0 +1,6 @@
+framework module ParithiConstraints {
+  umbrella header "ParithiConstraints-umbrella.h"
+
+  export *
+  module * { export * }
+}
